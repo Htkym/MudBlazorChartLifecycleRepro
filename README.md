@@ -11,7 +11,8 @@ limitations, and supplementary automated recordings are documented in
 [the verification report](evidence/VERIFICATION.md). The published candidate is
 [commit d7cc80f](https://github.com/Htkym/MudBlazor/commit/d7cc80fe053606c2c6b7c832ab51f8b3eec3854d)
 on [the fix branch](https://github.com/Htkym/MudBlazor/tree/fix/chart-resize-observer-lifecycle).
-No upstream PR has been created as part of this publication.
+Upstream Draft PR:
+[MudBlazor/MudBlazor#14045](https://github.com/MudBlazor/MudBlazor/pull/14045).
 
 ## Run
 
@@ -236,6 +237,6 @@ after cloning.
 
 Both hosts' `bin` and `obj`, the whole `Upstream` checkout, `.log` files, and
 `.playwright-cli` output are ignored. Only the curated automation results under
-`evidence` are intentionally committed; private raw logs and the unpublished PR
-draft are excluded. No private application, credentials, database or
+`evidence` are intentionally committed; private raw logs and the PR body file
+are excluded. No private application, credentials, database or
 authentication is required or included.

@@ -6,7 +6,7 @@ commit to MudBlazor. The proposed upstream change is exactly two files:
 
 ## Submission status
 
-Suggested title: **Charts: fix size-observer cleanup after ancestor removal**
+Draft PR: [MudBlazor/MudBlazor#14045](https://github.com/MudBlazor/MudBlazor/pull/14045).
 
 Target: `MudBlazor/MudBlazor`, base `dev`; fix branch:
 `fix/chart-resize-observer-lifecycle`.
@@ -20,15 +20,18 @@ at [d7cc80f](https://github.com/Htkym/MudBlazor/commit/d7cc80fe053606c2c6b7c832a
 The committed source bytes match the verified candidate. The public
 reproduction/evidence destination is
 [Htkym/MudBlazorChartLifecycleRepro](https://github.com/Htkym/MudBlazorChartLifecycleRepro).
-Only fork, source, and evidence publication were authorized at this stage.
-No upstream Issue or PR has been created.
+The Draft PR is open against `dev` with the source commit above as its head.
+The reproduction repository contains supporting material, not additional
+upstream changes. Upstream CI is separate from the local checks recorded
+below; consult the PR checks for its current state. No separate Issue was
+created.
 
 The technical preparation is complete, but author-recorded visual proof has
 not been supplied. The current AutoTriage policy excludes automated recordings
 from normal PR video proof and exempts disposal/teardown errors. This bug
 concerns a delayed callback after chart disposal, so the exemption may apply;
 it is not a reason to present the existing automated clips as qualifying proof.
-The planned Draft PR will explain the disposal/teardown scope and retain these
+The Draft PR explains the disposal/teardown scope and retains these
 clips as supplementary diagnostics. A manual before/after recording can be
 provided if maintainers require it; acceptance of the exemption is not assumed.
 
@@ -247,10 +250,9 @@ final interpretation to the maintainers.
 
 The public repository's `evidence` directory includes this report, review,
 patch, selected JSON, screenshots, videos, and a file-hash manifest. It excludes
-the unpublished PR draft, raw CLI logs, local browser profiles, virtual
-environments, and upstream worktrees. The local evidence ZIP also retains the
-unpublished English PR draft as a preparation snapshot; its publication notes
-predate the fork and repository publication. The separate local
+the PR body, raw CLI logs, local browser profiles, virtual environments, and
+upstream worktrees. The local evidence ZIP also includes the submitted English
+PR body; the public evidence directory does not duplicate it. The separate local
 `MudBlazorChartLifecycleRepro-public.zip` remains the original baseline-only
 source archive.
 

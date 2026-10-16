@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-16T14:38:40.222980+00:00",
+  "checkedAt": "2026-10-16T14:48:45.853880+00:00",
   "baseCommit": "326bf8c8dcd9f1765d4301e468fcad36d398a16c",
   "branch": "fix/chart-resize-observer-lifecycle",
   "sourceCommit": "d7cc80fe053606c2c6b7c832ab51f8b3eec3854d",
@@ -9,14 +9,16 @@
     "sourceBranch": "https://github.com/Htkym/MudBlazor/tree/fix/chart-resize-observer-lifecycle",
     "reproductionRepository": "https://github.com/Htkym/MudBlazorChartLifecycleRepro",
     "upstreamIssueCreated": false,
-    "upstreamPrCreated": false,
-    "localPrDraft": "Unpublished preparation snapshot; omitted from the public evidence directory."
+    "upstreamPrCreated": true,
+    "upstreamPr": "https://github.com/MudBlazor/MudBlazor/pull/14045",
+    "upstreamPrDraft": true,
+    "localPrDraft": "Local source for the submitted PR body; omitted from the public evidence directory."
   },
   "visualProof": {
     "existingVideos": "Playwright recordings; supplementary diagnostics, not author-recorded proof.",
     "authorRecordedVideosProvided": false,
     "policy": "Disposal/teardown exemption may apply; do not assume automated clips satisfy video proof.",
-    "plannedSubmission": "Explain the disposal/teardown scope in a Draft PR; obtain author-operated inline video if maintainers require it."
+    "submission": "The Draft PR explains the disposal/teardown scope; author-operated inline video remains conditional on maintainer feedback."
   },
   "candidateBundleSha256": "1BB894C5105908E59CE83A9B8778E17DB80DE0D3682909454E83689A097D3AE9",
   "sourceFiles": {
@@ -205,8 +207,8 @@
   },
   "files": {
     "VERIFICATION.md": {
-      "sha256": "718577120EDF7464389E8371AAADFBDE8D039450D4E5D7E072023631EF8E9C9C",
-      "bytes": 14462
+      "sha256": "F9CCCE153C042D248E8569C9D8E57DAF46E1EFB3D1A2453AE841E8C04F7C58F7",
+      "bytes": 14599
     },
     "REVIEW.md": {
       "sha256": "431FAECCCC0157827AE3C872600DE5F6AB12BFFDD57B9C424FF5973D21182874",

@@ -1,0 +1,292 @@
+{
+  "checkedAt": "2026-10-16T14:38:40.222980+00:00",
+  "baseCommit": "326bf8c8dcd9f1765d4301e468fcad36d398a16c",
+  "branch": "fix/chart-resize-observer-lifecycle",
+  "sourceCommit": "d7cc80fe053606c2c6b7c832ab51f8b3eec3854d",
+  "sourceState": "Two-file fix committed and pushed; clean source worktree; verified candidate bytes unchanged.",
+  "publication": {
+    "fork": "https://github.com/Htkym/MudBlazor",
+    "sourceBranch": "https://github.com/Htkym/MudBlazor/tree/fix/chart-resize-observer-lifecycle",
+    "reproductionRepository": "https://github.com/Htkym/MudBlazorChartLifecycleRepro",
+    "upstreamIssueCreated": false,
+    "upstreamPrCreated": false,
+    "localPrDraft": "Unpublished preparation snapshot; omitted from the public evidence directory."
+  },
+  "visualProof": {
+    "existingVideos": "Playwright recordings; supplementary diagnostics, not author-recorded proof.",
+    "authorRecordedVideosProvided": false,
+    "policy": "Disposal/teardown exemption may apply; do not assume automated clips satisfy video proof.",
+    "plannedSubmission": "Explain the disposal/teardown scope in a Draft PR; obtain author-operated inline video if maintainers require it."
+  },
+  "candidateBundleSha256": "1BB894C5105908E59CE83A9B8778E17DB80DE0D3682909454E83689A097D3AE9",
+  "sourceFiles": {
+    "mudHelpers.js": "27F980967B3D7969DCC9575DD574A92CAC4AAFDBC18DAF30B7B522FA796C1C4C",
+    "mudHelpers.test.ts": "0400FB5A6201151DDC547C07EC214C71A1B84DC813A5B270D7E481646B7D0194"
+  },
+  "checks": {
+    "regressions": {
+      "original": {
+        "passed": 1,
+        "failed": 6
+      },
+      "final": {
+        "passed": 7,
+        "failed": 0
+      }
+    },
+    "relatedReleaseCharts": {
+      "passed": 510,
+      "failed": 0,
+      "skipped": 0,
+      "rtkRawRecovery": true
+    },
+    "completeFrontendPipeline": "passed",
+    "normalBuilds": [
+      "Server",
+      "WebAssembly",
+      "Release Docs Server"
+    ],
+    "changedFileFormat": "passed",
+    "finalWhitespaceFormat": "passed",
+    "diffCheck": "passed",
+    "savedPatchAppliesToCleanBase": true,
+    "nativeScenariosPerBrowser": 6,
+    "docsCallerFamilies": [
+      "axis",
+      "radial",
+      "HeatMap",
+      "Sankey"
+    ],
+    "docsOldChartObserversDisconnected": 13,
+    "realServerReconnect": "passed"
+  },
+  "navigation": [
+    {
+      "browser": "Edge",
+      "version": "155.0.4283.45",
+      "variant": "baseline",
+      "mode": "Server",
+      "attempted": 1,
+      "targetErrorTrials": 1
+    },
+    {
+      "browser": "Edge",
+      "version": "155.0.4283.45",
+      "variant": "baseline",
+      "mode": "WebAssembly",
+      "attempted": 2,
+      "targetErrorTrials": 1
+    },
+    {
+      "browser": "Edge",
+      "version": "155.0.4283.45",
+      "variant": "candidate",
+      "mode": "Server",
+      "attempted": 20,
+      "targetErrorTrials": 0
+    },
+    {
+      "browser": "Edge",
+      "version": "155.0.4283.45",
+      "variant": "candidate",
+      "mode": "WebAssembly",
+      "attempted": 20,
+      "targetErrorTrials": 0
+    },
+    {
+      "browser": "Firefox",
+      "version": "158.0",
+      "variant": "baseline",
+      "mode": "Server",
+      "attempted": 2,
+      "targetErrorTrials": 1
+    },
+    {
+      "browser": "Firefox",
+      "version": "158.0",
+      "variant": "baseline",
+      "mode": "WebAssembly",
+      "attempted": 1,
+      "targetErrorTrials": 1
+    },
+    {
+      "browser": "Firefox",
+      "version": "158.0",
+      "variant": "candidate",
+      "mode": "Server",
+      "attempted": 20,
+      "targetErrorTrials": 0
+    },
+    {
+      "browser": "Firefox",
+      "version": "158.0",
+      "variant": "candidate",
+      "mode": "WebAssembly",
+      "attempted": 20,
+      "targetErrorTrials": 0
+    }
+  ],
+  "performance": {
+    "Edge": {
+      "version": "155.0.4283.45",
+      "rows": [
+        {
+          "count": 1,
+          "medianTotalMs": {
+            "baseline": 1.699999988079071,
+            "candidate": 1.699999988079071
+          }
+        },
+        {
+          "count": 10,
+          "medianTotalMs": {
+            "baseline": 1.5999999642372131,
+            "candidate": 1.899999976158142
+          }
+        },
+        {
+          "count": 50,
+          "medianTotalMs": {
+            "baseline": 1.5,
+            "candidate": 3
+          }
+        }
+      ]
+    },
+    "Firefox": {
+      "version": "158.0",
+      "rows": [
+        {
+          "count": 1,
+          "medianTotalMs": {
+            "baseline": 10,
+            "candidate": 8
+          }
+        },
+        {
+          "count": 10,
+          "medianTotalMs": {
+            "baseline": 7,
+            "candidate": 7
+          }
+        },
+        {
+          "count": 50,
+          "medianTotalMs": {
+            "baseline": 8,
+            "candidate": 12
+          }
+        }
+      ]
+    }
+  },
+  "rubberDuckReview": {
+    "blockingIssuesFound": 0,
+    "nonblockingObservations": [
+      "Shared-ancestor direct child-list churn is the main unmeasured cost case; wording clarified.",
+      "No separate branch-only test for the ResizeObserver detached guard; no test added."
+    ],
+    "humanOrMaintainerApproval": false
+  },
+  "qualifications": [
+    "Targeted local checks, not the entire upstream CI matrix.",
+    "Finite navigation trials are not occurrence-rate estimates.",
+    "Native helper microbenchmark is instrumented; no full Blazor throughput or long-term memory benchmark.",
+    "Direct child-list churn on shared ancestors causes per-chart re-observation and was not measured.",
+    "Docs resize/hide fixtures include test-only CSS; ordinary app navigation has no interop overrides.",
+    "App favicon 404s and HTTP Docs image CSP diagnostics are preserved.",
+    "Already-in-flight calls and connected-but-invalid .NET references are not ruled out.",
+    "Task-owned verification hosts and browsers stopped."
+  ],
+  "baselineSourceArchive": {
+    "filename": "MudBlazorChartLifecycleRepro-public.zip",
+    "sha256": "F9FB22505169A6DDC0D72C96671E5E09DE892359F018303A7107E299C30FABE0",
+    "includedInThisArchive": false
+  },
+  "files": {
+    "VERIFICATION.md": {
+      "sha256": "718577120EDF7464389E8371AAADFBDE8D039450D4E5D7E072023631EF8E9C9C",
+      "bytes": 14462
+    },
+    "REVIEW.md": {
+      "sha256": "431FAECCCC0157827AE3C872600DE5F6AB12BFFDD57B9C424FF5973D21182874",
+      "bytes": 1821
+    },
+    "chart-resize-observer-lifecycle.patch": {
+      "sha256": "1F1BD77D6B792D54BF27F6EEAEB17D18BBBA7AD5E5502AC7D55C11664A0DB6D0",
+      "bytes": 12603
+    },
+    "edge-performance.json": {
+      "sha256": "9A966FB13302A9A2FE75CDFEC7CBC0EDC66CF32DE689685315C0D0489A525DEC",
+      "bytes": 17533
+    },
+    "firefox-performance.json": {
+      "sha256": "B9464F6A3D2AF2FDAC5BAD926CC15A27FA54DC725A77DEAB9B3E00D020AF47F0",
+      "bytes": 16227
+    },
+    "root-subtree-edge-performance.json": {
+      "sha256": "E555EF47B7634862631586C6C3525D812CA91B9DD698451EEC0BA1EBCF5B59D8",
+      "bytes": 17668
+    },
+    "root-subtree-firefox-performance.json": {
+      "sha256": "A87804A466E1FFD9669959521CB41CDEFE16809CC91A85EA1EA536C6DFDBF0DC",
+      "bytes": 16348
+    },
+    "edge-native-observers.json": {
+      "sha256": "D56ECE646946A21A81F11CBEF47A2E1EC728C341110126A401357EAC6001F9DB",
+      "bytes": 2999
+    },
+    "firefox-native-observers.json": {
+      "sha256": "6E93ECEFF3AB2E72FE273FEAEC2D228BFC671BC58AB44F69B26F613AFB7BB1BA",
+      "bytes": 3038
+    },
+    "edge-navigation.json": {
+      "sha256": "0EC1F38CC1571BB81122CF091739BA7DEC7C2ECD58D92CEAE684128730F11AF4",
+      "bytes": 9056
+    },
+    "firefox-baseline-navigation.json": {
+      "sha256": "F1790D48B9B6458DBECC7788FDE46CAFBA7F6DF912ACFCAB64A18F4F4229345D",
+      "bytes": 2314
+    },
+    "firefox-candidate-navigation.json": {
+      "sha256": "084DD5D2ABADDB9688FFA58418376071841F5469470338F6DA777C55C5CD53AF",
+      "bytes": 4070
+    },
+    "docs-charts.json": {
+      "sha256": "D72388DFF6799B0ABD63FDE7188261098E3F3E9DEEA10DA33CEE3F2943AF18FF",
+      "bytes": 23574
+    },
+    "server-reconnect.json": {
+      "sha256": "765B2635A3A7412B77C530D1CD859C5098E7B5EBCC5DC67CE20E507B4532B070",
+      "bytes": 10449
+    },
+    "media-validation.json": {
+      "sha256": "EADAAE99A2D6D699D12F1927EF717FC370EF0A851A963995055C8E424701DC96",
+      "bytes": 363
+    },
+    "baseline-chart.png": {
+      "sha256": "CD7B64ABB3EB6A231DE8D7538BD7760BEDA64751D90D33A68BC1ADCEFF70500B",
+      "bytes": 26366
+    },
+    "baseline-after.png": {
+      "sha256": "6D435DE7FF739BE2A7D52590AB9C38BAEFF7B6514B66A4A03B37CB961AA37F32",
+      "bytes": 18133
+    },
+    "candidate-chart.png": {
+      "sha256": "CD7B64ABB3EB6A231DE8D7538BD7760BEDA64751D90D33A68BC1ADCEFF70500B",
+      "bytes": 26366
+    },
+    "candidate-after.png": {
+      "sha256": "6D435DE7FF739BE2A7D52590AB9C38BAEFF7B6514B66A4A03B37CB961AA37F32",
+      "bytes": 18133
+    },
+    "baseline-navigation.webm": {
+      "sha256": "13B8A46EF4CEE4386A144FE73004D391F716777268AC536BEEE69DC1815012BE",
+      "bytes": 114716
+    },
+    "candidate-navigation.webm": {
+      "sha256": "F7074C4BFF02D8E7B3D23EBEEED5E82D75C9DAF2D6AD07AB2A8DC4A9A79AF4FB",
+      "bytes": 843829
+    }
+  }
+}

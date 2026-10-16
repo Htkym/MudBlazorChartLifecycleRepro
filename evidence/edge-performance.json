@@ -1,0 +1,667 @@
+{
+  "browser": "Edge",
+  "version": "155.0.4283.45",
+  "methodology": "Instrumented native observer microbenchmark, not a full Blazor performance benchmark",
+  "results": [
+    {
+      "variant": "baseline",
+      "round": 1,
+      "count": 1,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.5,
+      "meanBatchMs": 0.0075,
+      "p95BatchMs": 0.09999996423721313,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 1
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 1,
+        "activeMutationObservers": 1,
+        "notifications": 1
+      }
+    },
+    {
+      "variant": "candidate",
+      "round": 1,
+      "count": 1,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.600000023841858,
+      "meanBatchMs": 0.00800000011920929,
+      "p95BatchMs": 0.09999996423721313,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 1
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 0,
+        "activeMutationObservers": 0,
+        "notifications": 1
+      }
+    },
+    {
+      "variant": "baseline",
+      "round": 1,
+      "count": 10,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.5,
+      "meanBatchMs": 0.0075,
+      "p95BatchMs": 0.09999996423721313,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 10
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 10,
+        "activeMutationObservers": 10,
+        "notifications": 10
+      }
+    },
+    {
+      "variant": "candidate",
+      "round": 1,
+      "count": 10,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.800000011920929,
+      "meanBatchMs": 0.009000000059604645,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 10
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 0,
+        "activeMutationObservers": 0,
+        "notifications": 10
+      }
+    },
+    {
+      "variant": "baseline",
+      "round": 1,
+      "count": 50,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.5,
+      "meanBatchMs": 0.0075,
+      "p95BatchMs": 0.09999996423721313,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 50
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 50,
+        "activeMutationObservers": 50,
+        "notifications": 50
+      }
+    },
+    {
+      "variant": "candidate",
+      "round": 1,
+      "count": 50,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 3.600000023841858,
+      "meanBatchMs": 0.01800000011920929,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 50
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 0,
+        "activeMutationObservers": 0,
+        "notifications": 50
+      }
+    },
+    {
+      "variant": "candidate",
+      "round": 2,
+      "count": 1,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 2.400000035762787,
+      "meanBatchMs": 0.012000000178813934,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 1
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 0,
+        "activeMutationObservers": 0,
+        "notifications": 1
+      }
+    },
+    {
+      "variant": "baseline",
+      "round": 2,
+      "count": 1,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.699999988079071,
+      "meanBatchMs": 0.008499999940395355,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 1
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 1,
+        "activeMutationObservers": 1,
+        "notifications": 1
+      }
+    },
+    {
+      "variant": "candidate",
+      "round": 2,
+      "count": 10,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.899999976158142,
+      "meanBatchMs": 0.00949999988079071,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 10
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 0,
+        "activeMutationObservers": 0,
+        "notifications": 10
+      }
+    },
+    {
+      "variant": "baseline",
+      "round": 2,
+      "count": 10,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 2.100000023841858,
+      "meanBatchMs": 0.010500000119209289,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 10
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 10,
+        "activeMutationObservers": 10,
+        "notifications": 10
+      }
+    },
+    {
+      "variant": "candidate",
+      "round": 2,
+      "count": 50,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 2.699999988079071,
+      "meanBatchMs": 0.013499999940395356,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 50
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 0,
+        "activeMutationObservers": 0,
+        "notifications": 50
+      }
+    },
+    {
+      "variant": "baseline",
+      "round": 2,
+      "count": 50,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.5,
+      "meanBatchMs": 0.0075,
+      "p95BatchMs": 0.09999996423721313,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 50
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 50,
+        "activeMutationObservers": 50,
+        "notifications": 50
+      }
+    },
+    {
+      "variant": "baseline",
+      "round": 3,
+      "count": 1,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.600000023841858,
+      "meanBatchMs": 0.00800000011920929,
+      "p95BatchMs": 0.09999996423721313,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 1
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 1,
+        "activeMutationObservers": 1,
+        "notifications": 1
+      }
+    },
+    {
+      "variant": "candidate",
+      "round": 3,
+      "count": 1,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.699999988079071,
+      "meanBatchMs": 0.008499999940395355,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 1
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 0,
+        "activeMutationObservers": 0,
+        "notifications": 1
+      }
+    },
+    {
+      "variant": "baseline",
+      "round": 3,
+      "count": 10,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.5999999642372131,
+      "meanBatchMs": 0.007999999821186066,
+      "p95BatchMs": 0.09999996423721313,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 10
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 10,
+        "activeMutationObservers": 10,
+        "notifications": 10
+      }
+    },
+    {
+      "variant": "candidate",
+      "round": 3,
+      "count": 10,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 2.199999988079071,
+      "meanBatchMs": 0.010999999940395355,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 10
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 0,
+        "activeMutationObservers": 0,
+        "notifications": 10
+      }
+    },
+    {
+      "variant": "baseline",
+      "round": 3,
+      "count": 50,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.5,
+      "meanBatchMs": 0.0075,
+      "p95BatchMs": 0.09999996423721313,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 50
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 50,
+        "activeMutationObservers": 50,
+        "notifications": 50
+      }
+    },
+    {
+      "variant": "candidate",
+      "round": 3,
+      "count": 50,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 3,
+      "meanBatchMs": 0.015,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 50
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 0,
+        "activeMutationObservers": 0,
+        "notifications": 50
+      }
+    },
+    {
+      "variant": "candidate",
+      "round": 4,
+      "count": 1,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.899999976158142,
+      "meanBatchMs": 0.00949999988079071,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 1
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 0,
+        "activeMutationObservers": 0,
+        "notifications": 1
+      }
+    },
+    {
+      "variant": "baseline",
+      "round": 4,
+      "count": 1,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.699999988079071,
+      "meanBatchMs": 0.008499999940395355,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 1
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 1,
+        "activeMutationObservers": 1,
+        "notifications": 1
+      }
+    },
+    {
+      "variant": "candidate",
+      "round": 4,
+      "count": 10,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.899999976158142,
+      "meanBatchMs": 0.00949999988079071,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 10
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 0,
+        "activeMutationObservers": 0,
+        "notifications": 10
+      }
+    },
+    {
+      "variant": "baseline",
+      "round": 4,
+      "count": 10,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.7999999523162842,
+      "meanBatchMs": 0.008999999761581421,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 10
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 10,
+        "activeMutationObservers": 10,
+        "notifications": 10
+      }
+    },
+    {
+      "variant": "candidate",
+      "round": 4,
+      "count": 50,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 3,
+      "meanBatchMs": 0.015,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 50
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 0,
+        "activeMutationObservers": 0,
+        "notifications": 50
+      }
+    },
+    {
+      "variant": "baseline",
+      "round": 4,
+      "count": 50,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.600000023841858,
+      "meanBatchMs": 0.00800000011920929,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 50
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 50,
+        "activeMutationObservers": 50,
+        "notifications": 50
+      }
+    },
+    {
+      "variant": "baseline",
+      "round": 5,
+      "count": 1,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.800000011920929,
+      "meanBatchMs": 0.009000000059604645,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 1
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 1,
+        "activeMutationObservers": 1,
+        "notifications": 1
+      }
+    },
+    {
+      "variant": "candidate",
+      "round": 5,
+      "count": 1,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.600000023841858,
+      "meanBatchMs": 0.00800000011920929,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 1
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 0,
+        "activeMutationObservers": 0,
+        "notifications": 1
+      }
+    },
+    {
+      "variant": "baseline",
+      "round": 5,
+      "count": 10,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.5999999642372131,
+      "meanBatchMs": 0.007999999821186066,
+      "p95BatchMs": 0.09999996423721313,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 10
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 10,
+        "activeMutationObservers": 10,
+        "notifications": 10
+      }
+    },
+    {
+      "variant": "candidate",
+      "round": 5,
+      "count": 10,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 2.099999964237213,
+      "meanBatchMs": 0.010499999821186067,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 10
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 0,
+        "activeMutationObservers": 0,
+        "notifications": 10
+      }
+    },
+    {
+      "variant": "baseline",
+      "round": 5,
+      "count": 50,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 1.5,
+      "meanBatchMs": 0.0075,
+      "p95BatchMs": 0.09999996423721313,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 50
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 50,
+        "activeMutationObservers": 50,
+        "notifications": 50
+      }
+    },
+    {
+      "variant": "candidate",
+      "round": 5,
+      "count": 50,
+      "batches": 200,
+      "additionsPerBatch": 20,
+      "recordsPerBatch": 21,
+      "totalMs": 3.300000011920929,
+      "meanBatchMs": 0.016500000059604645,
+      "p95BatchMs": 0.10000002384185791,
+      "workload": {
+        "mutationCallbacks": 0,
+        "mutationRecords": 0,
+        "resizeCallbacks": 0,
+        "notifications": 50
+      },
+      "afterRemoval": {
+        "activeResizeObservers": 0,
+        "activeMutationObservers": 0,
+        "notifications": 50
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "browser": "Firefox",
+  "version": "158.0",
+  "hosts": [
+    {
+      "mode": "Server",
+      "variant": "candidate",
+      "initial": {
+        "label": "MudBlazor 1.0.0.0 / Server",
+        "timeOrigin": 1792158237320
+      },
+      "asset": {
+        "sha256": "1bb894c5105908e59ce83a9b8778e17db80de0d3682909454e83689a097d3ae9",
+        "url": "http://127.0.0.1:5287/_content/MudBlazor/MudBlazor.min.js"
+      },
+      "trials": [
+        {
+          "trial": 1,
+          "errors": []
+        },
+        {
+          "trial": 2,
+          "errors": []
+        },
+        {
+          "trial": 3,
+          "errors": []
+        },
+        {
+          "trial": 4,
+          "errors": []
+        },
+        {
+          "trial": 5,
+          "errors": []
+        },
+        {
+          "trial": 6,
+          "errors": []
+        },
+        {
+          "trial": 7,
+          "errors": []
+        },
+        {
+          "trial": 8,
+          "errors": []
+        },
+        {
+          "trial": 9,
+          "errors": []
+        },
+        {
+          "trial": 10,
+          "errors": []
+        },
+        {
+          "trial": 11,
+          "errors": []
+        },
+        {
+          "trial": 12,
+          "errors": []
+        },
+        {
+          "trial": 13,
+          "errors": []
+        },
+        {
+          "trial": 14,
+          "errors": []
+        },
+        {
+          "trial": 15,
+          "errors": []
+        },
+        {
+          "trial": 16,
+          "errors": []
+        },
+        {
+          "trial": 17,
+          "errors": []
+        },
+        {
+          "trial": 18,
+          "errors": []
+        },
+        {
+          "trial": 19,
+          "errors": []
+        },
+        {
+          "trial": 20,
+          "errors": []
+        }
+      ],
+      "targetErrorTrials": 0,
+      "counterAfter": 1,
+      "sameDocument": true,
+      "diagnostics": [],
+      "errorUiVisible": false,
+      "timeOrigin": 1792158237320
+    },
+    {
+      "mode": "WebAssembly",
+      "variant": "candidate",
+      "initial": {
+        "label": "MudBlazor 1.0.0.0 / WebAssembly",
+        "timeOrigin": 1792158259381
+      },
+      "asset": {
+        "sha256": "1bb894c5105908e59ce83a9b8778e17db80de0d3682909454e83689a097d3ae9",
+        "url": "http://127.0.0.1:5288/_content/MudBlazor/MudBlazor.min.js"
+      },
+      "trials": [
+        {
+          "trial": 1,
+          "errors": []
+        },
+        {
+          "trial": 2,
+          "errors": []
+        },
+        {
+          "trial": 3,
+          "errors": []
+        },
+        {
+          "trial": 4,
+          "errors": []
+        },
+        {
+          "trial": 5,
+          "errors": []
+        },
+        {
+          "trial": 6,
+          "errors": []
+        },
+        {
+          "trial": 7,
+          "errors": []
+        },
+        {
+          "trial": 8,
+          "errors": []
+        },
+        {
+          "trial": 9,
+          "errors": []
+        },
+        {
+          "trial": 10,
+          "errors": []
+        },
+        {
+          "trial": 11,
+          "errors": []
+        },
+        {
+          "trial": 12,
+          "errors": []
+        },
+        {
+          "trial": 13,
+          "errors": []
+        },
+        {
+          "trial": 14,
+          "errors": []
+        },
+        {
+          "trial": 15,
+          "errors": []
+        },
+        {
+          "trial": 16,
+          "errors": []
+        },
+        {
+          "trial": 17,
+          "errors": []
+        },
+        {
+          "trial": 18,
+          "errors": []
+        },
+        {
+          "trial": 19,
+          "errors": []
+        },
+        {
+          "trial": 20,
+          "errors": []
+        }
+      ],
+      "targetErrorTrials": 0,
+      "counterAfter": 1,
+      "sameDocument": true,
+      "diagnostics": [],
+      "errorUiVisible": false,
+      "timeOrigin": 1792158259381
+    }
+  ]
+}

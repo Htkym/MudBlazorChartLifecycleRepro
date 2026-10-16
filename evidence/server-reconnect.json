@@ -1,0 +1,271 @@
+{
+  "reconnected": true,
+  "connectionAttempts": 2,
+  "connectedWebSockets": 2,
+  "httpTransports": [],
+  "before": {
+    "timeOrigin": 1792158739083.7,
+    "svgWidth": 720
+  },
+  "offline": {
+    "connected": true,
+    "actualWidth": 468,
+    "viewBoxWidth": 720,
+    "reconnectUiVisible": true
+  },
+  "after": {
+    "timeOrigin": 1792158739083.7,
+    "hostWidth": 360,
+    "svgWidth": 360,
+    "sameChartElement": true,
+    "errorUiVisible": false
+  },
+  "errors": [],
+  "diagnostics": [
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.260Z] Error: Connection disconnected with error 'Error: WebSocket closed with status code: 4000 (Controlled transient transport loss).'."
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "warning",
+      "text": "[2026-10-16T13:52:19.265Z] Warning: Error from HTTP request. TypeError: Failed to fetch."
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.266Z] Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.266Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.266Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.266Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "warning",
+      "text": "[2026-10-16T13:52:19.269Z] Warning: Error from HTTP request. TypeError: Failed to fetch."
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.269Z] Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.269Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.269Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.269Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "warning",
+      "text": "[2026-10-16T13:52:19.275Z] Warning: Error from HTTP request. TypeError: Failed to fetch."
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.275Z] Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.275Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.275Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.276Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "warning",
+      "text": "[2026-10-16T13:52:19.279Z] Warning: Error from HTTP request. TypeError: Failed to fetch."
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.279Z] Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.279Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.279Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.279Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "warning",
+      "text": "[2026-10-16T13:52:19.287Z] Warning: Error from HTTP request. TypeError: Failed to fetch."
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.287Z] Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.287Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.287Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.287Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "warning",
+      "text": "[2026-10-16T13:52:19.291Z] Warning: Error from HTTP request. TypeError: Failed to fetch."
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.291Z] Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.291Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.291Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.291Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "warning",
+      "text": "[2026-10-16T13:52:19.294Z] Warning: Error from HTTP request. TypeError: Failed to fetch."
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.294Z] Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.294Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.295Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.295Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "warning",
+      "text": "[2026-10-16T13:52:19.297Z] Warning: Error from HTTP request. TypeError: Failed to fetch."
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.297Z] Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.297Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.297Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.297Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "warning",
+      "text": "[2026-10-16T13:52:19.299Z] Warning: Error from HTTP request. TypeError: Failed to fetch."
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.299Z] Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.299Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.299Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.299Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "warning",
+      "text": "[2026-10-16T13:52:19.301Z] Warning: Error from HTTP request. TypeError: Failed to fetch."
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.301Z] Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.301Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.301Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    },
+    {
+      "type": "error",
+      "text": "[2026-10-16T13:52:19.301Z] Error: Error: Failed to complete negotiation with the server: TypeError: Failed to fetch"
+    }
+  ],
+  "failedResources": []
+}

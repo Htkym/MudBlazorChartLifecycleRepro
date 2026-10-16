@@ -1,0 +1,12 @@
+@page "/after"
+
+<PageTitle>After chart disposal</PageTitle>
+
+<h1>After chart disposal</h1>
+<p>The button below runs in @RendererInfo.Name. It checks whether interaction still works.</p>
+<button type="button" disabled="@(!RendererInfo.IsInteractive)" @onclick="() => _count++">@RendererInfo.Name counter: @_count</button>
+<p><a href="/repro">Back to chart</a></p>
+
+@code {
+    private int _count;
+}

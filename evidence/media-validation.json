@@ -1,0 +1,18 @@
+[
+  {
+    "filename": "baseline-navigation.webm",
+    "bytes": 114716,
+    "durationSeconds": 3.52,
+    "width": 1280,
+    "height": 900,
+    "decodedFirstFrame": true
+  },
+  {
+    "filename": "candidate-navigation.webm",
+    "bytes": 843829,
+    "durationSeconds": 12.04,
+    "width": 1280,
+    "height": 900,
+    "decodedFirstFrame": true
+  }
+]

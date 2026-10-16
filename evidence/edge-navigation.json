@@ -1,0 +1,278 @@
+{
+  "browser": "Edge",
+  "version": "155.0.4283.45",
+  "hosts": [
+    {
+      "variant": "baseline",
+      "mode": "Server",
+      "initial": {
+        "timeOrigin": 1792158337664.9,
+        "runtimeLabel": "MudBlazor 1.0.0.0 / Server",
+        "sha256": "dddeba483be257587ce0356d095bc26980733e4f4d0a204f9f81dcb4ab62264d"
+      },
+      "trials": [
+        {
+          "trial": 1,
+          "errors": [
+            {
+              "message": "System.ArgumentException: There is no tracked object with id '2'. Perhaps the DotNetObjectReference instance was already disposed. (Parameter 'dotNetObjectId')\r\n   at Microsoft.JSInterop.JSRuntime.GetObjectReference(Int64 dotNetObjectId)\r\n   at Microsoft.JSInterop.Infrastructure.DotNetDispatcher.BeginInvokeDotNet(JSRuntime jsRuntime, DotNetInvocationInfo invocationInfo, String argsJson)",
+              "stack": "Error: System.ArgumentException: There is no tracked object with id '2'. Perhaps the DotNetObjectReference instance was already disposed. (Parameter 'dotNetObjectId')\r\n   at Microsoft.JSInterop.JSRuntime.GetObjectReference(Int64 dotNetObjectId)\r\n   at Microsoft.JSInterop.Infrastructure.DotNetDispatcher.BeginInvokeDotNet(JSRuntime jsRuntime, DotNetInvocationInfo invocationInfo, String argsJson)\n    at b.endInvokeDotNetFromJS (http://127.0.0.1:5387/_framework/blazor.web.9hsif5t8mt.js:1:4504)\n    at kn._invokeClientMethod (http://127.0.0.1:5387/_framework/blazor.web.9hsif5t8mt.js:1:69348)\n    at kn._processIncomingData (http://127.0.0.1:5387/_framework/blazor.web.9hsif5t8mt.js:1:66713)\n    at connection.onreceive (http://127.0.0.1:5387/_framework/blazor.web.9hsif5t8mt.js:1:60364)\n    at i.onmessage (http://127.0.0.1:5387/_framework/blazor.web.9hsif5t8mt.js:1:84422)"
+            }
+          ]
+        }
+      ],
+      "targetErrorTrials": 1,
+      "diagnostics": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ],
+      "counterAfter": 1,
+      "sameDocument": true,
+      "timeOrigin": 1792158337664.9,
+      "errorUiVisible": false
+    },
+    {
+      "variant": "baseline",
+      "mode": "WebAssembly",
+      "initial": {
+        "timeOrigin": 1792158338631.7,
+        "runtimeLabel": "MudBlazor 1.0.0.0 / WebAssembly",
+        "sha256": "dddeba483be257587ce0356d095bc26980733e4f4d0a204f9f81dcb4ab62264d"
+      },
+      "trials": [
+        {
+          "trial": 1,
+          "errors": []
+        },
+        {
+          "trial": 2,
+          "errors": [
+            {
+              "message": "System.ArgumentException: There is no tracked object with id '4'. Perhaps the DotNetObjectReference instance was already disposed. Arg_ParamName_Name, dotNetObjectId\n   at Microsoft.JSInterop.JSRuntime.GetObjectReference(Int64 dotNetObjectId)\n   at Microsoft.JSInterop.Infrastructure.DotNetDispatcher.BeginInvokeDotNet(JSRuntime jsRuntime, DotNetInvocationInfo invocationInfo, String argsJson)",
+              "stack": "Error: System.ArgumentException: There is no tracked object with id '4'. Perhaps the DotNetObjectReference instance was already disposed. Arg_ParamName_Name, dotNetObjectId\n   at Microsoft.JSInterop.JSRuntime.GetObjectReference(Int64 dotNetObjectId)\n   at Microsoft.JSInterop.Infrastructure.DotNetDispatcher.BeginInvokeDotNet(JSRuntime jsRuntime, DotNetInvocationInfo invocationInfo, String argsJson)\n    at w.endInvokeDotNetFromJS (http://127.0.0.1:5388/_framework/blazor.webassembly.w3qd1tpl0e.js:1:4504)\n    at Object.tn [as endInvokeDotNetFromJS] (http://127.0.0.1:5388/_framework/blazor.webassembly.w3qd1tpl0e.js:1:59313)\n    at http://127.0.0.1:5388/_framework/dotnet.runtime.r2kbxkuujc.js:3:34586\n    at Mc (http://127.0.0.1:5388/_framework/dotnet.runtime.r2kbxkuujc.js:3:175836)\n    at http://127.0.0.1:5388/_framework/dotnet.native.f749u69f30.wasm:wasm-function[298]:0x1f797\n    at http://127.0.0.1:5388/_framework/dotnet.native.f749u69f30.wasm:wasm-function[222]:0x1ca98\n    at http://127.0.0.1:5388/_framework/dotnet.native.f749u69f30.wasm:wasm-function[213]:0xebe7\n    at http://127.0.0.1:5388/_framework/dotnet.native.f749u69f30.wasm:wasm-function[256]:0x1d974\n    at http://127.0.0.1:5388/_framework/dotnet.native.f749u69f30.wasm:wasm-function[3231]:0xf1888\n    at http://127.0.0.1:5388/_framework/dotnet.native.f749u69f30.wasm:wasm-function[2553]:0xc7139"
+            }
+          ]
+        }
+      ],
+      "targetErrorTrials": 1,
+      "diagnostics": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ],
+      "counterAfter": 1,
+      "sameDocument": true,
+      "timeOrigin": 1792158338631.7,
+      "errorUiVisible": false,
+      "video": "baseline-navigation.webm"
+    },
+    {
+      "variant": "candidate",
+      "mode": "Server",
+      "initial": {
+        "timeOrigin": 1792158341835.8,
+        "runtimeLabel": "MudBlazor 1.0.0.0 / Server",
+        "sha256": "1bb894c5105908e59ce83a9b8778e17db80de0d3682909454e83689a097d3ae9"
+      },
+      "trials": [
+        {
+          "trial": 1,
+          "errors": []
+        },
+        {
+          "trial": 2,
+          "errors": []
+        },
+        {
+          "trial": 3,
+          "errors": []
+        },
+        {
+          "trial": 4,
+          "errors": []
+        },
+        {
+          "trial": 5,
+          "errors": []
+        },
+        {
+          "trial": 6,
+          "errors": []
+        },
+        {
+          "trial": 7,
+          "errors": []
+        },
+        {
+          "trial": 8,
+          "errors": []
+        },
+        {
+          "trial": 9,
+          "errors": []
+        },
+        {
+          "trial": 10,
+          "errors": []
+        },
+        {
+          "trial": 11,
+          "errors": []
+        },
+        {
+          "trial": 12,
+          "errors": []
+        },
+        {
+          "trial": 13,
+          "errors": []
+        },
+        {
+          "trial": 14,
+          "errors": []
+        },
+        {
+          "trial": 15,
+          "errors": []
+        },
+        {
+          "trial": 16,
+          "errors": []
+        },
+        {
+          "trial": 17,
+          "errors": []
+        },
+        {
+          "trial": 18,
+          "errors": []
+        },
+        {
+          "trial": 19,
+          "errors": []
+        },
+        {
+          "trial": 20,
+          "errors": []
+        }
+      ],
+      "targetErrorTrials": 0,
+      "diagnostics": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ],
+      "counterAfter": 1,
+      "sameDocument": true,
+      "timeOrigin": 1792158341835.8,
+      "errorUiVisible": false
+    },
+    {
+      "variant": "candidate",
+      "mode": "WebAssembly",
+      "initial": {
+        "timeOrigin": 1792158353734,
+        "runtimeLabel": "MudBlazor 1.0.0.0 / WebAssembly",
+        "sha256": "1bb894c5105908e59ce83a9b8778e17db80de0d3682909454e83689a097d3ae9"
+      },
+      "trials": [
+        {
+          "trial": 1,
+          "errors": []
+        },
+        {
+          "trial": 2,
+          "errors": []
+        },
+        {
+          "trial": 3,
+          "errors": []
+        },
+        {
+          "trial": 4,
+          "errors": []
+        },
+        {
+          "trial": 5,
+          "errors": []
+        },
+        {
+          "trial": 6,
+          "errors": []
+        },
+        {
+          "trial": 7,
+          "errors": []
+        },
+        {
+          "trial": 8,
+          "errors": []
+        },
+        {
+          "trial": 9,
+          "errors": []
+        },
+        {
+          "trial": 10,
+          "errors": []
+        },
+        {
+          "trial": 11,
+          "errors": []
+        },
+        {
+          "trial": 12,
+          "errors": []
+        },
+        {
+          "trial": 13,
+          "errors": []
+        },
+        {
+          "trial": 14,
+          "errors": []
+        },
+        {
+          "trial": 15,
+          "errors": []
+        },
+        {
+          "trial": 16,
+          "errors": []
+        },
+        {
+          "trial": 17,
+          "errors": []
+        },
+        {
+          "trial": 18,
+          "errors": []
+        },
+        {
+          "trial": 19,
+          "errors": []
+        },
+        {
+          "trial": 20,
+          "errors": []
+        }
+      ],
+      "targetErrorTrials": 0,
+      "diagnostics": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ],
+      "counterAfter": 1,
+      "sameDocument": true,
+      "timeOrigin": 1792158353734,
+      "errorUiVisible": false,
+      "video": "candidate-navigation.webm"
+    }
+  ]
+}

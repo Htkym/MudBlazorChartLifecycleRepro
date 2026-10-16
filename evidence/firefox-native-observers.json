@@ -1,0 +1,126 @@
+{
+  "browser": "Firefox",
+  "version": "158.0",
+  "driver": "0.37.1",
+  "mode": "native",
+  "results": [
+    {
+      "after": {
+        "calls": 2,
+        "connected": true,
+        "mutationDisconnects": 0,
+        "resizeDisconnects": 0,
+        "unhandled": [],
+        "warnings": []
+      },
+      "before": {
+        "calls": 1,
+        "mutationDisconnects": 0,
+        "resizeDisconnects": 0,
+        "unhandled": [],
+        "warnings": []
+      },
+      "passed": true,
+      "scenario": "normal-resize"
+    },
+    {
+      "after": {
+        "calls": 1,
+        "connected": false,
+        "mutationDisconnects": 1,
+        "resizeDisconnects": 1,
+        "unhandled": [],
+        "warnings": []
+      },
+      "before": {
+        "calls": 1,
+        "mutationDisconnects": 0,
+        "resizeDisconnects": 0,
+        "unhandled": [],
+        "warnings": []
+      },
+      "passed": true,
+      "scenario": "ancestor-removal"
+    },
+    {
+      "after": {
+        "calls": 1,
+        "connected": false,
+        "mutationDisconnects": 1,
+        "resizeDisconnects": 1,
+        "unhandled": [],
+        "warnings": []
+      },
+      "before": {
+        "calls": 1,
+        "mutationDisconnects": 0,
+        "resizeDisconnects": 0,
+        "unhandled": [],
+        "warnings": []
+      },
+      "passed": true,
+      "scenario": "hidden-ancestor-removal"
+    },
+    {
+      "after": {
+        "calls": 1,
+        "connected": false,
+        "mutationDisconnects": 1,
+        "resizeDisconnects": 1,
+        "unhandled": [],
+        "warnings": []
+      },
+      "before": {
+        "calls": 1,
+        "mutationDisconnects": 0,
+        "resizeDisconnects": 0,
+        "unhandled": [],
+        "warnings": []
+      },
+      "passed": true,
+      "scenario": "hidden-shadow-ancestor-removal"
+    },
+    {
+      "after": {
+        "calls": 1,
+        "connected": false,
+        "mutationDisconnects": 2,
+        "resizeDisconnects": 1,
+        "unhandled": [],
+        "warnings": []
+      },
+      "before": {
+        "calls": 1,
+        "mutationDisconnects": 1,
+        "resizeDisconnects": 0,
+        "unhandled": [],
+        "warnings": []
+      },
+      "passed": true,
+      "scenario": "hidden-reparented-shadow-ancestor-removal"
+    },
+    {
+      "after": {
+        "calls": 2,
+        "connected": true,
+        "mutationDisconnects": 0,
+        "resizeDisconnects": 0,
+        "unhandled": [],
+        "warnings": [
+          "[MudBlazor] Error invoking size change callback: Error: Controlled transient callback rejection"
+        ]
+      },
+      "before": {
+        "calls": 1,
+        "mutationDisconnects": 0,
+        "resizeDisconnects": 0,
+        "unhandled": [],
+        "warnings": [
+          "[MudBlazor] Error invoking size change callback: Error: Controlled transient callback rejection"
+        ]
+      },
+      "passed": true,
+      "scenario": "temporary-rejection"
+    }
+  ]
+}

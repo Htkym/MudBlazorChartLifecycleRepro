@@ -1,0 +1,523 @@
+{
+  "browser": "Edge",
+  "version": "155.0.4283.45",
+  "instrumentation": "Native ResizeObserver forwarding wrapper; actual Docs Server and original examples",
+  "results": [
+    {
+      "kind": "bar",
+      "initial": {
+        "timeOrigin": 1792158732092.4,
+        "sha256": "1bb894c5105908e59ce83a9b8778e17db80de0d3682909454e83689a097d3ae9",
+        "chartCount": 3
+      },
+      "before": [
+        {
+          "id": 0,
+          "width": 830,
+          "deliveries": 1
+        },
+        {
+          "id": 1,
+          "width": 830,
+          "deliveries": 1
+        },
+        {
+          "id": 2,
+          "width": 798,
+          "deliveries": 1
+        }
+      ],
+      "selected": {
+        "id": 0,
+        "width": 630
+      },
+      "live": [
+        {
+          "id": 0,
+          "connected": true,
+          "active": true,
+          "width": 630,
+          "deliveries": 11
+        },
+        {
+          "id": 1,
+          "connected": true,
+          "active": true,
+          "width": 630,
+          "deliveries": 9
+        },
+        {
+          "id": 2,
+          "connected": true,
+          "active": true,
+          "width": 598,
+          "deliveries": 9
+        }
+      ],
+      "after": {
+        "timeOrigin": 1792158732092.4,
+        "activeOldCharts": 0,
+        "disconnects": [
+          1,
+          1,
+          1
+        ]
+      },
+      "errors": [],
+      "diagnostics": [
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/apple-touch-icon.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/Lithe.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/Timewarp.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/Mythetech.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/JetBrains.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/BecomeSponsor.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/images/door.jpg' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        }
+      ],
+      "resizeMethod": "Viewport resize",
+      "hideShowMethod": "Test-only CSS display change; no component or DOM-node removal",
+      "passed": true
+    },
+    {
+      "kind": "pie",
+      "initial": {
+        "timeOrigin": 1792158734623.1,
+        "sha256": "1bb894c5105908e59ce83a9b8778e17db80de0d3682909454e83689a097d3ae9",
+        "chartCount": 1
+      },
+      "before": [
+        {
+          "id": 0,
+          "width": 300.796875,
+          "deliveries": 1
+        }
+      ],
+      "selected": {
+        "id": 0,
+        "width": 228
+      },
+      "live": [
+        {
+          "id": 0,
+          "connected": true,
+          "active": true,
+          "width": 228,
+          "deliveries": 4
+        }
+      ],
+      "after": {
+        "timeOrigin": 1792158734623.1,
+        "activeOldCharts": 0,
+        "disconnects": [
+          1
+        ]
+      },
+      "errors": [],
+      "diagnostics": [
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/apple-touch-icon.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/Lithe.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/Timewarp.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/Mythetech.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/JetBrains.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/BecomeSponsor.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/images/door.jpg' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        }
+      ],
+      "resizeMethod": "Original Add button, then test-only 260px paper width",
+      "hideShowMethod": "Test-only CSS display change; no component or DOM-node removal",
+      "passed": true
+    },
+    {
+      "kind": "heatmap",
+      "initial": {
+        "timeOrigin": 1792158735727.5,
+        "sha256": "1bb894c5105908e59ce83a9b8778e17db80de0d3682909454e83689a097d3ae9",
+        "chartCount": 1
+      },
+      "before": [
+        {
+          "id": 0,
+          "width": 798,
+          "deliveries": 1
+        }
+      ],
+      "selected": {
+        "id": 0,
+        "width": 455.46875
+      },
+      "live": [
+        {
+          "id": 0,
+          "connected": true,
+          "active": true,
+          "width": 588.75,
+          "deliveries": 6
+        },
+        {
+          "id": 1,
+          "connected": true,
+          "active": true,
+          "width": 588.75,
+          "deliveries": 5
+        },
+        {
+          "id": 2,
+          "connected": true,
+          "active": true,
+          "width": 588.75,
+          "deliveries": 5
+        },
+        {
+          "id": 3,
+          "connected": true,
+          "active": true,
+          "width": 588.75,
+          "deliveries": 4
+        },
+        {
+          "id": 4,
+          "connected": true,
+          "active": true,
+          "width": 588.75,
+          "deliveries": 2
+        },
+        {
+          "id": 5,
+          "connected": true,
+          "active": true,
+          "width": 572.75,
+          "deliveries": 0
+        }
+      ],
+      "after": {
+        "timeOrigin": 1792158735727.5,
+        "activeOldCharts": 0,
+        "disconnects": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "errors": [],
+      "diagnostics": [
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/apple-touch-icon.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/Lithe.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/Timewarp.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/Mythetech.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/JetBrains.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/BecomeSponsor.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/images/door.jpg' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        }
+      ],
+      "resizeMethod": "Viewport resize",
+      "hideShowMethod": "Test-only CSS display change; no component or DOM-node removal",
+      "passed": true
+    },
+    {
+      "kind": "sankey",
+      "initial": {
+        "timeOrigin": 1792158736854.1,
+        "sha256": "1bb894c5105908e59ce83a9b8778e17db80de0d3682909454e83689a097d3ae9",
+        "chartCount": 3
+      },
+      "before": [
+        {
+          "id": 0,
+          "width": 650,
+          "deliveries": 1
+        },
+        {
+          "id": 1,
+          "width": 1000,
+          "deliveries": 1
+        },
+        {
+          "id": 2,
+          "width": 650,
+          "deliveries": 1
+        }
+      ],
+      "selected": {
+        "id": 0,
+        "width": 650
+      },
+      "live": [
+        {
+          "id": 0,
+          "connected": true,
+          "active": true,
+          "width": 650,
+          "deliveries": 3
+        },
+        {
+          "id": 1,
+          "connected": true,
+          "active": true,
+          "width": 999,
+          "deliveries": 2
+        },
+        {
+          "id": 2,
+          "connected": true,
+          "active": true,
+          "width": 650,
+          "deliveries": 1
+        }
+      ],
+      "after": {
+        "timeOrigin": 1792158736854.1,
+        "activeOldCharts": 0,
+        "disconnects": [
+          1,
+          1,
+          1
+        ]
+      },
+      "errors": [],
+      "diagnostics": [
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/apple-touch-icon.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-32x32.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/favicon-16x16.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/Lithe.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/Timewarp.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/Mythetech.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/JetBrains.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/_content/MudBlazor.Docs/images/sponsors/BecomeSponsor.png' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        },
+        {
+          "type": "error",
+          "text": "Loading the image 'http://127.0.0.1:5290/images/door.jpg' violates the following Content Security Policy directive: \"img-src data: https:\". The action has been blocked."
+        }
+      ],
+      "resizeMethod": "Original Chart width slider",
+      "hideShowMethod": "Test-only CSS display change; no component or DOM-node removal",
+      "passed": true
+    }
+  ]
+}

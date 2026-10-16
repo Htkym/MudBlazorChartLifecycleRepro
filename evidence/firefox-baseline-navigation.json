@@ -1,0 +1,62 @@
+{
+  "browser": "Firefox",
+  "version": "158.0",
+  "hosts": [
+    {
+      "mode": "Server",
+      "variant": "baseline",
+      "initial": {
+        "label": "MudBlazor 1.0.0.0 / Server",
+        "timeOrigin": 1792158181065
+      },
+      "asset": {
+        "sha256": "dddeba483be257587ce0356d095bc26980733e4f4d0a204f9f81dcb4ab62264d",
+        "url": "http://127.0.0.1:5387/_content/MudBlazor/MudBlazor.min.js"
+      },
+      "trials": [
+        {
+          "trial": 1,
+          "errors": []
+        },
+        {
+          "trial": 2,
+          "errors": [
+            "Error: System.ArgumentException: There is no tracked object with id '4'. Perhaps the DotNetObjectReference instance was already disposed. (Parameter 'dotNetObjectId')\r\n   at Microsoft.JSInterop.JSRuntime.GetObjectReference(Int64 dotNetObjectId)\r\n   at Microsoft.JSInterop.Infrastructure.DotNetDispatcher.BeginInvokeDotNet(JSRuntime jsRuntime, DotNetInvocationInfo invocationInfo, String argsJson)"
+          ]
+        }
+      ],
+      "targetErrorTrials": 1,
+      "counterAfter": 1,
+      "sameDocument": true,
+      "diagnostics": [],
+      "errorUiVisible": false,
+      "timeOrigin": 1792158181065
+    },
+    {
+      "mode": "WebAssembly",
+      "variant": "baseline",
+      "initial": {
+        "label": "MudBlazor 1.0.0.0 / WebAssembly",
+        "timeOrigin": 1792158213946
+      },
+      "asset": {
+        "sha256": "dddeba483be257587ce0356d095bc26980733e4f4d0a204f9f81dcb4ab62264d",
+        "url": "http://127.0.0.1:5388/_content/MudBlazor/MudBlazor.min.js"
+      },
+      "trials": [
+        {
+          "trial": 1,
+          "errors": [
+            "Error: System.ArgumentException: There is no tracked object with id '2'. Perhaps the DotNetObjectReference instance was already disposed. Arg_ParamName_Name, dotNetObjectId\n   at Microsoft.JSInterop.JSRuntime.GetObjectReference(Int64 dotNetObjectId)\n   at Microsoft.JSInterop.Infrastructure.DotNetDispatcher.BeginInvokeDotNet(JSRuntime jsRuntime, DotNetInvocationInfo invocationInfo, String argsJson)"
+          ]
+        }
+      ],
+      "targetErrorTrials": 1,
+      "counterAfter": 1,
+      "sameDocument": true,
+      "diagnostics": [],
+      "errorUiVisible": false,
+      "timeOrigin": 1792158213946
+    }
+  ]
+}
